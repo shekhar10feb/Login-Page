@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/24/107122-bokeh-calm-water-sea-night.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  color: white;
+  position: absolute;
+  top: 27%;
+  left: 40%;
+}
+
+.container h1 {
+  display: inline-block;
+  font-size: 40px;
+  border-bottom: 5px solid rgb(64, 138, 235);
+  margin-bottom: 5px;
+  margin-left: 20px;
+  padding: 13px 0;
+}
+
+form {
+  margin-left: 20px;
+}
+
+input {
+  background: none;
+  width: 78%;
+  margin: 13px 10px;
+  padding: 7px 7px;
+  font-size: 20px;
+  color: white;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(64, 138, 235);
+}
+
+#password {
+  margin-left: 8px;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  width: 35%;
+  margin: 16px 0;
+  padding: 14px 14px;
+  border-radius: 15px;
+  background: none;
+  border: 2px solid rgb(64, 138, 235);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  outline: none;
+  width: 35%;
+  margin: 16px 0;
+  padding: 14px 14px;
+  border-radius: 15px;
+  background: rgb(64, 138, 235);
+  border: 2px solid rgb(64, 138, 235);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
